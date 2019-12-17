@@ -9,8 +9,8 @@ import (
 
 const (
 	protocol          = "https://"
-	todoistHost       = "beta.todoist.com/"
-	todoistPathPrefix = "API/v8/"
+	todoistHost       = "api.todoist.com/"
+	todoistPathPrefix = "rest/v1/"
 )
 
 type Client struct {
